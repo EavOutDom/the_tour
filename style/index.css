@@ -1,12 +1,24 @@
+:root {
+    --primaryColor: #121212;
+    --secondaryColor: #0b216d;
+    --tertiaryColor: #f0f0f0;
+    --primaryFontColor: #ffffff1a;
+    --secondaryFontColor: #f7c860;
+    --tertiaryColor: #ef4992;
+}
 * {
     margin: 0;
     padding: 0;
-    font-family: "DM Sans", sans-serif;
+    font-family: "Lexend", sans-serif;
+    background-color: #ffffff;
+    color: #000000;
+    box-sizing: border-box;
 }
 
-.containerBox {
+.container {
     width: 100%;
     margin: 0 auto;
+    background-color: #000000;
 }
 @media (min-width: 640px) {
     .container {
