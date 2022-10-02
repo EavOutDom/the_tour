@@ -56,13 +56,17 @@
 }
 
 #nav {
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+#nav > div {
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 20px 15px;
 }
 
-#nav > .navItems {
+#nav .navList {
     display: flex;
     align-items: center;
     gap: 20px;
@@ -76,34 +80,76 @@
     position: relative;
 }
 
-#nav a::after {
+.navItem::after {
     content: "";
     bottom: -3px;
     left: 0;
     position: absolute;
     width: 0px;
     height: 3px;
-    background-color: var(--tertiaryFontColor);
+    background-color: var(--secondaryColor);
     transition: all 0.3s ease-in-out;
 }
 
-#nav a:hover::after {
+.navItem:hover::after {
     width: 100%;
 }
 
-#nav a:hover,
-#nav a.active {
-    color: var(--tertiaryFontColor);
+.navItem:hover,
+.navItem.active {
     transition: all 0.3s ease-in-out;
 }
 
-#nav a.active::after {
+.active::after {
     content: "";
     bottom: -3px;
     left: 0;
     position: absolute;
-    width: 20px;
+    width: 100%;
     height: 3px;
-    background-color: var(--tertiaryFontColor);
+    background-color: var(--secondaryColor);
     transition: all 0.3s ease-in-out;
+}
+
+.navDropdown > a {
+    position: relative;
+}
+
+.navDropdown .listDropdown {
+    position: absolute;
+    left: -1.7rem;
+    width: 192px;
+    padding-top: 1.2rem;
+    visibility: hidden;
+    opacity: 0;
+    transition: all 0.3 ease-in-out;
+    background-color: var(--tertiaryColor);
+}
+
+.listDropdown > li,
+.listDropdown a {
+    padding: 0 5px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+.navDropdown:hover .listDropdown {
+    visibility: visible;
+    opacity: 1;
+    transition: all 0.3s ease-in-out;
+}
+
+.listDropdown a {
+    transition: all 0.3s ease-in-out;
+    width: 190px;
+    box-shadow: inset 0 0 0 0 var(--secondaryColor);
+}
+
+.listDropdown a:hover {
+    box-shadow: inset 190px 0 0 0 var(--secondaryColor);
+    color: var(--primaryFontColor);
+}
+
+.listDropdown .active {
+    background-color: var(--secondaryColor);
+    color: var(--primaryFontColor);
 }
