@@ -1,10 +1,10 @@
 :root {
     --primaryColor: #121212;
     --secondaryColor: #0b216d;
-    --tertiaryColor: #f0f0f0;
-    --primaryFontColor: #ffffff1a;
-    --secondaryFontColor: #f7c860;
-    --tertiaryColor: #ef4992;
+    --tertiaryColor: #ffffff1a;
+    --primaryFontColor: #ffffff;
+    --secondaryFontColor: #ffeb3b;
+    --tertiaryFontColor: #ef4992;
 }
 * {
     margin: 0;
@@ -18,7 +18,6 @@
 .container {
     width: 100%;
     margin: 0 auto;
-    background-color: #000000;
 }
 @media (min-width: 640px) {
     .container {
@@ -44,4 +43,67 @@
     .container {
         max-width: 1536px;
     }
+}
+
+#header {
+    position: sticky;
+    top: 0;
+    left: 0;
+}
+
+#icon {
+    cursor: pointer;
+}
+
+#nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 15px;
+}
+
+#nav > .navItems {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+#nav a,
+#nav li {
+    list-style: none;
+    text-decoration: none;
+    cursor: pointer;
+    position: relative;
+}
+
+#nav a::after {
+    content: "";
+    bottom: -3px;
+    left: 0;
+    position: absolute;
+    width: 0px;
+    height: 3px;
+    background-color: var(--tertiaryFontColor);
+    transition: all 0.3s ease-in-out;
+}
+
+#nav a:hover::after {
+    width: 100%;
+}
+
+#nav a:hover,
+#nav a.active {
+    color: var(--tertiaryFontColor);
+    transition: all 0.3s ease-in-out;
+}
+
+#nav a.active::after {
+    content: "";
+    bottom: -3px;
+    left: 0;
+    position: absolute;
+    width: 20px;
+    height: 3px;
+    background-color: var(--tertiaryFontColor);
+    transition: all 0.3s ease-in-out;
 }

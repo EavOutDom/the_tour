@@ -1,0 +1,9 @@
+@import "./index.css";
+
+h1 {
+    color: var(--secondaryFontColor);
+}
+
+h2 {
+    color: var(--tertiaryFontColor);
+}
