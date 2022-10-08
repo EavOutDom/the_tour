@@ -1,0 +1,32 @@
+@import "./index.css";
+/*  --background Color: #121212;
+    --secondaryColor: #0b216d;
+    --tertiaryColor: #ffffff1a;
+    --primaryFontColor: #ffffff;
+    --secondaryFontColor: #ffeb3b;
+    --tertiaryFontColor: #ef4992; */
+
+h1 {
+    color: var(--secondaryFontColor);
+}
+.b1{
+    width: 300px;
+    height: 500px;
+    background-color: blue;
+    float: left;
+    padding: 10px;
+    margin: 10px;
+    
+}
+.b2{
+    width: 300px;
+    height: 500px;
+    background-color: blue;
+    float: left;
+}
+.b3{
+    width: 300px;
+    height: 500px;
+    background-color: blue;
+    float: left;
+}
