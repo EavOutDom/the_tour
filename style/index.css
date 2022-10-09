@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Lexend&display=swap");
 :root {
     --primaryColor: #121212;
     --secondaryColor: #0b216d;
@@ -49,6 +50,7 @@
     position: sticky;
     top: 0;
     left: 0;
+    z-index: 1000;
 }
 
 #icon {
