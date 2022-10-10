@@ -12,9 +12,6 @@ class MyHeader extends HTMLElement {
                     <li>
                         <a class="navItem" href="index.html">Home</a>
                     </li>
-                    <li>
-                        <a class="navItem" href="province.html">Province</a>
-                    </li>
                     <li class="navDropdown">
                         <a class="navItem">About us</a>
                         <ul class="listDropdown">
