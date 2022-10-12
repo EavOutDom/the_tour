@@ -1,10 +1,10 @@
-console.log("Hello World");
-console.log("123");
-var swiper = new Swiper(".mySwiper", {
+new Swiper(".mySwiper", {
     loop: true,
-    autoplay: true,
-    autoplayTimeout: 1000,
-    autoplayHoverPause: true,
+    autoplay: {
+        delay: 2000,
+        disableOnInteraction: false,
+        pauseOnMouseEnter: true,
+    },
     effect: "coverflow",
     grabCursor: true,
     centeredSlides: true,
