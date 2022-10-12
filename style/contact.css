@@ -23,7 +23,7 @@
 }
 .card {
     width: 30rem;
-    height: 98%;
+    height: 95%;
     border-radius: 2em;
     padding: 2em 1em;
     display: flex;
@@ -40,14 +40,29 @@
 }
 
 .card_image {
-    width: 10em;
-    height: 10rem;
+    width: 15rem;
+    height: 15rem;
     border-radius: 50%;
-    margin-bottom: 10px;
+    margin-bottom: 15px;
+    padding: 5px;
+    background-color: var(--secondaryColor);
 }
 .card_image img {
     width: 100%;
     height: 100%;
     border-radius: 50%;
     object-fit: cover;
+    padding: 5px;
+}
+
+.card_content {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.card_title{
+    color: var(--tertiaryFontColor);
+    margin: 5px;
 }
