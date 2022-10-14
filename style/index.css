@@ -4,7 +4,7 @@
     --secondaryColor: #0b216d;
     --tertiaryColor: #ffffff1a;
     --primaryFontColor: #ffffff;
-    --secondaryFontColor: #ffeb3b;
+    --secondaryFontColor: #faa327;
     --tertiaryFontColor: #ef4992;
 }
 * {
@@ -58,6 +58,7 @@
 }
 
 #nav {
+    background-color: #fff;
     box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
 }
 
@@ -66,12 +67,14 @@
     justify-content: space-between;
     align-items: center;
     padding: 20px 15px;
+    background-color: transparent;
 }
 
 #nav .navList {
     display: flex;
     align-items: center;
-    gap: 20px;
+    gap: 28px;
+    background-color: transparent;
 }
 
 #nav a,
@@ -80,6 +83,10 @@
     text-decoration: none;
     cursor: pointer;
     position: relative;
+}
+
+.navItem {
+    background-color: white;
 }
 
 .navItem::after {
@@ -102,7 +109,7 @@
     transition: all 0.3s ease-in-out;
 }
 
-.active::after {
+.navList > li > a.active::after {
     content: "";
     bottom: -3px;
     left: 0;
@@ -122,16 +129,17 @@
     left: -1.7rem;
     width: 192px;
     padding-top: 1.2rem;
+    padding-bottom: 5px;
     visibility: hidden;
     opacity: 0;
-    transition: all 0.3 ease-in-out;
-    background-color: var(--tertiaryColor);
+    background-color: #fff;
 }
 
 .listDropdown > li,
 .listDropdown a {
     padding: 0 5px;
     box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    background-color: #fff;
 }
 
 .navDropdown:hover .listDropdown {
@@ -151,7 +159,7 @@
     color: var(--primaryFontColor);
 }
 
-.listDropdown .active {
-    background-color: var(--secondaryColor);
+.listDropdown > li > a.active {
     color: var(--primaryFontColor);
+    background-color: var(--secondaryColor);
 }
