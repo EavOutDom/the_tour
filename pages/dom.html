@@ -6,13 +6,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <!-- css-->
         <link rel="stylesheet" href="../style/index.css" type="text/css" />
-        <!-- font family -->
-        <link rel="preconnect" href="https://fonts.googleapis.com" />
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-        <link
-            href="https://fonts.googleapis.com/css2?family=Lexend&display=swap"
-            rel="stylesheet"
-        />
+        <link rel="stylesheet" href="../style/dom.css" type="text/css" />
         <!-- jquery -->
         <script
             type="text/javascript"
@@ -26,17 +20,46 @@
             src="../components/header-component.js"
             defer
         ></script>
+        <!-- icon -->
+        <script
+            type="module"
+            src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+        ></script>
+        <script
+            nomodule
+            src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+        ></script>
         <title>Eav Outdom</title>
     </head>
     <body>
         <header-component></header-component>
-        <main>
-            <h1>Hello world</h1>
-            <h2>Hello world</h2>
-            <h3>Hello world</h3>
-            <h4>Hello world</h4>
-            <h5>Hello world</h5>
-            <p>Hello world</p>
+        <main class="container">
+            <p class="name">EAV OUTDOM</p>
+            <p class="title">Web developer</p>
+            <p class="p">
+                A front-end developer with a passion for learning and creating.
+                Interested in the entire
+            </p>
+            <p class="p">
+                Well-organised person with a strong sense of responsibility and
+                a strong desire to learn and grow.
+            </p>
+            <p class="p">
+                frontend spectrum and working on ambitious projects with
+                positive people.
+            </p>
+            <div class="icons">
+                <ion-icon name="logo-github" size="large"></ion-icon>
+                <ion-icon name="logo-linkedin" size="large"></ion-icon>
+                <ion-icon name="logo-instagram" size="large"></ion-icon>
+                <ion-icon name="logo-facebook" size="large"></ion-icon>
+            </div>
+            <div class="image_profile">
+                <img
+                    alt=""
+                    src="https://res.cloudinary.com/dnnpulqtc/image/upload/v1665665649/pr/photo_2022-10-13_19-53-53_aj2qen.jpg"
+                />
+            </div>
         </main>
         <footer></footer>
     </body>

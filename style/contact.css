@@ -5,3 +5,64 @@
     --primaryFontColor: #ffffff;
     --secondaryFontColor: #ffeb3b;
     --tertiaryFontColor: #ef4992; */
+.content {
+    width: 100%;
+    height: calc(100vh - 60px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.swiper {
+    width: 100%;
+}
+.swiper-wrapper {
+    width: 100%;
+    height: 32rem;
+    display: flex;
+    align-items: center;
+}
+.card {
+    width: 30rem;
+    height: 95%;
+    border-radius: 2em;
+    padding: 2em 1em;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin: 0;
+    box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px,
+        rgba(6, 24, 44, 0.65) 0px 4px 6px -1px,
+        rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
+}
+
+.swiper-slide:not(.swiper-slide-active) {
+    filter: blur(1px);
+}
+
+.card_image {
+    width: 15rem;
+    height: 15rem;
+    border-radius: 50%;
+    margin-bottom: 15px;
+    padding: 5px;
+    background-color: var(--secondaryColor);
+}
+.card_image img {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    object-fit: cover;
+    padding: 5px;
+}
+
+.card_content {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.card_title{
+    color: var(--tertiaryFontColor);
+    margin: 5px;
+}
