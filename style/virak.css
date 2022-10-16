@@ -1,0 +1,77 @@
+:root {
+    --h: calc(100vh - 60px);
+}
+
+.main_page {
+    width: 100%;
+    height: var(--h);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.pf_image {
+    width: 100%;
+}
+
+.pf_image img {
+    margin: 0 auto;
+    display: block;
+    width: auto;
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+
+.main_text {
+    text-align: center;
+}
+
+#loop {
+    margin: 20px 0;
+}
+
+.card {
+
+    background-color: white;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+
+.content {
+    padding: 10px;
+    background-color: transparent;
+}
+
+.title {
+    background-color: transparent;
+}
+
+.desc {
+    background-color: transparent;
+    font-weight: 700;
+}
+
+.card .location {
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+    background-color: transparent;
+}
+
+.card .location .location_name {
+    width: 200px;
+    padding: 10px;
+    color: white;
+    background-color: #B03030;
+    text-align: center;
+}
+
+.card .location .location_type {
+    width: 200px;
+    padding: 10px;
+    color: white;
+    background-color: #121212;
+    text-align: center;
+}
