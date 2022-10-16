@@ -14,6 +14,8 @@
         ></script>
         <!-- javascript -->
         <script type="text/javascript" src="../index.js"></script>
+        <!-- type js -->
+        <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
         <!-- header component -->
         <script
             type="text/javascript"
@@ -34,50 +36,77 @@
     <body>
         <header-component></header-component>
         <main class="container">
-            <p class="name">EAV OUTDOM</p>
-            <p class="title">Web developer</p>
-            <p class="p">
-                A front-end developer with a passion for learning and creating.
-                Interested in the entire
-            </p>
-            <p class="p">
-                Well-organised person with a strong sense of responsibility and
-                a strong desire to learn and grow.
-            </p>
-            <p class="p">
-                frontend spectrum and working on ambitious projects with
-                positive people.
-            </p>
-            <div class="icons">
-                <a href="https://github.com/EavOutDom" target="_blank">
-                    <ion-icon name="logo-github" size="large"></ion-icon>
-                </a>
-                <a
-                    href="https://www.linkedin.com/in/eav-outdom-2b8496210/"
-                    target="_blank"
-                >
-                    <ion-icon name="logo-linkedin" size="large"></ion-icon>
-                </a>
-                <a
-                    href="https://www.instagram.com/eav_out_dom/"
-                    target="_blank"
-                >
-                    <ion-icon name="logo-instagram" size="large"></ion-icon>
-                </a>
-                <a
-                    href="https://www.facebook.com/mizter.dom"
-                    target="_blank"
-                >
-                    <ion-icon name="logo-facebook" size="large"></ion-icon>
-                </a>
-            </div>
-            <div class="image_profile">
-                <img
-                    alt=""
-                    src="https://res.cloudinary.com/dnnpulqtc/image/upload/v1665665649/pr/photo_2022-10-13_19-53-53_aj2qen.jpg"
-                />
+            <div class="grid">
+                <div id="grid_1">
+                    <p>Hello world,</p>
+                    <p class="name">I'm <span id="type"></span></p>
+                    <p class="title">Web developer</p>
+                    <p class="p">
+                        A front-end developer with a passion for learning and
+                        creating. Interested in the entire
+                    </p>
+                    <p class="p">
+                        Well-organised person with a strong sense of
+                        responsibility and a strong desire to learn and grow.
+                    </p>
+                    <p class="p">
+                        frontend spectrum and working on ambitious projects with
+                        positive people.
+                    </p>
+                    <div class="icons">
+                        <a href="https://github.com/EavOutDom" target="_blank">
+                            <ion-icon
+                                name="logo-github"
+                                size="large"
+                            ></ion-icon>
+                        </a>
+                        <a
+                            href="https://www.linkedin.com/in/eav-outdom-2b8496210/"
+                            target="_blank"
+                        >
+                            <ion-icon
+                                name="logo-linkedin"
+                                size="large"
+                            ></ion-icon>
+                        </a>
+                        <a
+                            href="https://www.instagram.com/eav_out_dom/"
+                            target="_blank"
+                        >
+                            <ion-icon
+                                name="logo-instagram"
+                                size="large"
+                            ></ion-icon>
+                        </a>
+                        <a
+                            href="https://www.facebook.com/mizter.dom"
+                            target="_blank"
+                        >
+                            <ion-icon
+                                name="logo-facebook"
+                                size="large"
+                            ></ion-icon>
+                        </a>
+                    </div>
+                </div>
+                <div id="grid_2">
+                    <div class="image_profile">
+                        <img
+                            alt=""
+                            src="https://res.cloudinary.com/dnnpulqtc/image/upload/v1665912927/pr/photo_2022-10-13_19-53-53_aj2qen_tbc3au.jpg"
+                        />
+                    </div>
+                </div>
             </div>
         </main>
+        <script>
+            let typed = new Typed("#type", {
+                strings: ["Eav Outdom", "21 year old"],
+                typeSpeed: 100,
+                backSpeed: 100,
+                loop: true,
+            });
+        </script>
         <footer></footer>
     </body>
 </html>
