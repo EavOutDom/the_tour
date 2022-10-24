@@ -1,0 +1,32 @@
+
+.text-part{
+    width: 50%;
+    height: 100vh;
+    float: left;
+    text-align: right;
+    margin-left:auto;
+    margin-right: 50px;
+    margin-top: 280px;
+   
+}
+.image-part{
+    width: 50%;
+    height: 100vh;
+    float: right;
+    
+    
+}
+.profile{
+    margin-top: 280px;
+    border-radius: 50%;
+    margin-left:50PX;
+    margin-right: auto;
+    width: 150px;
+    height: 150px;
+    display: block;
+}
+.text{
+    margin-top: 270px;
+    text-align: right;
+   
+}
