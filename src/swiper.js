@@ -1,3 +1,11 @@
+new Swiper(".swipe_img", {
+    loop: true,
+    speed: 1000,
+    autoplay: {
+        delay: 4000,
+        disableOnInteraction: false,
+    },
+});
 new Swiper(".mySwiper", {
     loop: true,
     speed: 1000,
