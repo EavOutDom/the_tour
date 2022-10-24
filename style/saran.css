@@ -30,9 +30,12 @@ h1 {
 }
 .p2{
     text-align: center;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-}
-.p3{
-text-align: center;
 }
 
+.icon_box{
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
