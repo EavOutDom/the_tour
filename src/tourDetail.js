@@ -1,4 +1,4 @@
-import { testData } from "./data.js";
+import { testData } from "../data.js";
 
 const detail = document.getElementById("detail");
 

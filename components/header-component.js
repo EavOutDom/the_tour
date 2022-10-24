@@ -42,7 +42,7 @@ class MyHeader extends HTMLElement {
                         </ul>
                     </li>
                     <li>
-                        <a class="navItem" href="contact.html">Contact</a>
+                        <a class="navItem" href="member.html">Member</a>
                     </li>
                 </ul>
             </div>

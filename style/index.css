@@ -7,6 +7,11 @@
     --secondaryFontColor: #faa327;
     --tertiaryFontColor: #ef4992;
 }
+
+a {
+    text-decoration: none;
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -171,4 +176,136 @@ main {
 .listDropdown > li > a.active {
     color: var(--primaryFontColor);
     background-color: var(--secondaryColor);
+}
+
+.content {
+    width: 100%;
+    height: calc(100vh - 60px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.swiper {
+    width: 100%;
+}
+
+.swiper-wrapper {
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.swiper-slide {
+    width: 100%;
+    height: 100%;
+}
+
+.hero_img {
+    height: calc(100vh - 60px);
+    position: relative;
+}
+
+.hero_img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.hero_img h1 {
+    font-size: 2rem;
+    text-transform: capitalize;
+    white-space: nowrap;
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: var(--primaryFontColor);
+}
+
+.hero_img p {
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: var(--primaryFontColor);
+}
+
+.txt_h1 {
+    text-align: center;
+    margin: 50px 0 10px;
+    text-transform: capitalize;
+    font-size: 2rem;
+}
+
+.txt_p {
+    text-align: center;
+    opacity: 70%;
+}
+
+.box_pp {
+    margin: 20px 120px;
+    background-color: white;
+    display: grid;
+    grid-template-columns: repeat(5, minmax(0, 1fr));
+    column-gap: 8px;
+    height: 300px;
+}
+
+.box_child1 {
+    grid-column: span 3 / span 3;
+    display: flex;
+    align-items: center;
+    padding-right: 90px;
+}
+
+.box_child2,
+.box_child3 {
+    min-height: fit-content;
+    grid-column: span 1 / span 1;
+    overflow: hidden;
+}
+
+.box_child2 > img,
+.box_child3 > img {
+    width: 100%;
+    height: 90%;
+    object-fit: cover;
+    border-radius: 5px;
+    scale: 1;
+    transition: all 0.3s ease;
+}
+
+.box_child2 img {
+    margin-top: 15%;
+}
+
+.box_child2 > img:hover,
+.box_child3 > img:hover {
+    transition: all 0.3s ease;
+    scale: 1.1;
+}
+
+.box_list {
+    background-color: #fff;
+    height: 150px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+    margin: 20px 120px;
+    padding: 5px;
+    display: flex;
+    gap: 5px;
+    border-radius: 5px;
+}
+
+.list_img {
+    height: 100%;
+    width: 140px;
+    border-radius: 5px;
+}
+
+.list_img img {
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+    border-radius: 5px;
 }
