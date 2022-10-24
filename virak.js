@@ -46,4 +46,4 @@ for (i = 0; i < total; i++) {
 </div> `;
 }
 
-loop.innerHTML = result;
+// loop.innerHTML = result;
