@@ -26,10 +26,47 @@
     text-align: center;
 }
 
+.main_text h4 {
+    text-align: center;
+    line-height: 30px;
+}
+
+
+
+
+.exp {
+    /* height: var(--h); */
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+/* .exp .information {} */
+
+.exp .mobile_img {
+    height: 400px;
+}
+
+ul {
+    padding-left: 30px;
+    line-height: 45px;
+}
+
+.contact_me {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    gap: 2rem;
+    margin: 1rem 0;
+}
+
+
+
 #loop {
     margin: 20px 0;
 }
 
+/* 
 .card {
 
     background-color: white;
@@ -68,6 +105,15 @@
     text-align: center;
 }
 
+.card .location .location_name:hover {
+    cursor: pointer;
+    width: 200px;
+    padding: 10px;
+    color: white;
+    background-color: #121212;
+    text-align: center;
+}
+
 .card .location .location_type {
     width: 200px;
     padding: 10px;
@@ -75,3 +121,12 @@
     background-color: #121212;
     text-align: center;
 }
+
+.card .location .location_type:hover {
+    cursor: pointer;
+    width: 200px;
+    padding: 10px;
+    color: white;
+    background-color: #B03030;
+    text-align: center;
+} */
