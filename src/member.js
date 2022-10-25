@@ -1,10 +1,10 @@
 const contactList = [
     {
         id: 1,
-        name: "Eav Outdommmmmm",
-        title: "CEO of WORLD BANK",
+        name: "Eav Outdom",
+        title: "Web developer",
         aba: "500 567 345",
-        image: "https://res.cloudinary.com/dnnpulqtc/image/upload/v1655180443/cld-sample-5.jpg",
+        image: "https://res.cloudinary.com/dnnpulqtc/image/upload/v1665665649/pr/photo_2022-10-13_19-53-53_aj2qen.jpg",
     },
     {
         id: 2,
@@ -16,9 +16,9 @@ const contactList = [
     {
         id: 3,
         name: "Bronh Saran",
-        title: "CEO of WORLD BANK",
-        aba: "500 567 345",
-        image: "https://res.cloudinary.com/dnnpulqtc/image/upload/v1655180443/cld-sample-5.jpg",
+        title: "Technical Engineer",
+        aba: "096 313 5780",
+        image: "https://github.com/BronhSaran/Images/blob/main/pic2.jpg?raw=true",
     },
     {
         id: 4,
@@ -38,7 +38,7 @@ const contactList = [
         id: 6,
         name: "Chhoeung Chhunvirak",
         title: "CEO of WORLD BANK",
-        aba: "500 567 345",
+        aba: "089 816 683",
         image: "https://res.cloudinary.com/dnnpulqtc/image/upload/v1655180443/cld-sample-5.jpg",
     },
     {
@@ -51,9 +51,9 @@ const contactList = [
     {
         id: 8,
         name: "Long Kakda",
-        title: "CEO of WORLD BANK",
-        aba: "500 567 345",
-        image: "https://res.cloudinary.com/dnnpulqtc/image/upload/v1655180443/cld-sample-5.jpg",
+        title: "Student of Rupp",
+        aba: "",
+        image: "https://res.cloudinary.com/dnnpulqtc/image/upload/v1666613316/pr/photo_2022-10-24_19-08-01_otpm27.jpg",
     },
 ];
 

@@ -28,6 +28,7 @@ body {
 main {
     width: 100%;
     margin: 0 auto;
+    position: relative;
 }
 @media (min-width: 640px) {
     .container,
@@ -69,6 +70,15 @@ main {
 
 #icon {
     cursor: pointer;
+    /* height: 60px;
+    max-height: 60px; */
+    position: absolute;
+}
+
+#icon img{
+    height: 60px;
+    width: 60px;
+    object-fit: cover;
 }
 
 #nav {
@@ -245,11 +255,13 @@ main {
 
 .box_pp {
     margin: 20px 120px;
+    padding: 5px;
     background-color: white;
     display: grid;
     grid-template-columns: repeat(5, minmax(0, 1fr));
     column-gap: 8px;
     height: 300px;
+    border-radius: 5px;
 }
 
 .box_child1 {
