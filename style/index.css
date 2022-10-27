@@ -75,7 +75,7 @@ main {
     position: absolute;
 }
 
-#icon img{
+#icon img {
     height: 60px;
     width: 60px;
     object-fit: cover;

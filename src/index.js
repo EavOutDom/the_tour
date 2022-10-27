@@ -1,4 +1,5 @@
 const activePage = window.location.pathname;
+console.log(activePage);
 $(document).ready(function () {
     $("ul li")
         .find("a")
