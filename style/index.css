@@ -254,21 +254,23 @@ main {
 }
 
 .box_pp {
-    margin: 20px 120px;
-    padding: 5px;
-    background-color: white;
+    margin: 40px 120px;
+    padding: 10px;
+    background-color: #fff;
     display: grid;
     grid-template-columns: repeat(5, minmax(0, 1fr));
     column-gap: 8px;
     height: 300px;
     border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
 }
 
 .box_child1 {
     grid-column: span 3 / span 3;
     display: flex;
     align-items: center;
-    padding-right: 90px;
+    padding-right: 60px;
+    padding-left: 20px;
 }
 
 .box_child2,
@@ -298,20 +300,35 @@ main {
     scale: 1.1;
 }
 
+.reverse .box_child1 {
+    order: 3;
+}
+.reverse .box_child2 {
+    order: 2;
+}
+.reverse .box_child3 {
+    order: 1;
+}
+
+#list_tour {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
 .box_list {
     background-color: #fff;
     height: 150px;
     box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
-    margin: 20px 120px;
+    margin: 20px;
     padding: 5px;
     display: flex;
-    gap: 5px;
+    gap: 10px;
     border-radius: 5px;
 }
 
 .list_img {
     height: 100%;
-    width: 140px;
+    width: 400px;
     border-radius: 5px;
 }
 
@@ -320,4 +337,35 @@ main {
     height: 100%;
     width: 100%;
     border-radius: 5px;
+}
+
+.list_name {
+    padding: 10px 0;
+}
+
+.list_desc {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    width:400px;
+}
+
+.order {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    padding: 40px;
+    gap: 40px;
+    align-items: center;
+}
+
+.pop_img {
+    width: 100%;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.pop_img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
 }

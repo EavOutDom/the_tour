@@ -13,8 +13,8 @@ const showHTML = testData
                 />
             </div>
             <div>
-                <h3>${data.name}</h3>
-                <p>${data.content}</p>
+                <h3 class='list_name'>${data.name}</h3>
+                <p class='list_desc'>${data.content}</p>
             </div>
         </div>
         </a>`
