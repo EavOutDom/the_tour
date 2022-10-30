@@ -1,149 +1,145 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8" />
-        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <!-- swiper -->
-        <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
-        <link
-            rel="stylesheet"
-            href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css"
-        />
-        <!-- css-->
-        <link rel="stylesheet" href="../style/index.css" type="text/css" />
-        <link rel="stylesheet" href="../style/tourDetail.css" type="text/css" />
-        <!-- jquery -->
-        <script
-            type="text/javascript"
-            src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"
-        ></script>
-        <!-- javascript -->
-        <script type="text/javascript" src="../src/index.js"></script>
-        <!-- header component -->
-        <script
-            type="text/javascript"
-            src="../components/header-component.js"
-            defer
-        ></script>
-        <title>Tour detail</title>
-    </head>
-    <body>
-        <header-component></header-component>
-        <main>
-            <div class="flex_box">
-                <div class="grid_box">
-                    <!-- main -->
-                    <div>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- swiper -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css"
+    />
+    <!-- css-->
+    <link rel="stylesheet" href="../style/index.css" type="text/css" />
+    <link rel="stylesheet" href="../style/tourDetail.css" type="text/css" />
+    <!-- jquery -->
+    <script
+      type="text/javascript"
+      src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"
+    ></script>
+    <!-- javascript -->
+    <script type="text/javascript" src="../src/index.js"></script>
+    <!-- header component -->
+    <script
+      type="text/javascript"
+      src="../components/header-component.js"
+      defer
+    ></script>
+    <title>Tour detail</title>
+  </head>
+  <body>
+    <header-component></header-component>
+    <main>
+      <div class="flex_box">
+        <div class="grid_box">
+          <!-- main -->
+          <div class="flex_between">
+            <div
+              class="swiper mainPic"
+              style="
+                --swiper-navigation-color: #fff;
+                --swiper-pagination-color: #fff;
+              "
+            >
+              <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                  <img
+                    alt=""
+                    src="https://res.cloudinary.com/dnnpulqtc/image/upload/v1666519551/pr/cambodia-ratanakiri-scenery_jvsksa.jpg"
+                  />
+                </div>
+                <div class="swiper-slide">
+                  <img
+                    alt=""
+                    src="https://res.cloudinary.com/dnnpulqtc/image/upload/v1666524206/pr/dfdbgb_eyq2bz.jpg"
+                  />
+                </div>
+                <div class="swiper-slide">
+                  <img
+                    alt=""
+                    src="https://res.cloudinary.com/dnnpulqtc/image/upload/v1666524147/pr/200_m8zqla.jpg"
+                  />
+                </div>
+                <div class="swiper-slide">
+                  <img
+                    alt=""
+                    src="https://res.cloudinary.com/dnnpulqtc/image/upload/v1666785991/pr/photo_2022-06-07_18-32-07_rihnpe.jpg"
+                  />
+                </div>
+                <div class="swiper-slide">
+                  <img
+                    alt=""
+                    src="https://res.cloudinary.com/dnnpulqtc/image/upload/v1666519551/pr/cambodia-ratanakiri-scenery_jvsksa.jpg"
+                  />
+                </div>
+              </div>
 
-                    
-                    <div
-                        class="swiper mainPic"
-                        style="
-                            --swiper-navigation-color: #fff;
-                            --swiper-pagination-color: #fff;
-                        "
-                    >
-                        <div class="swiper-wrapper">
-                            <div class="swiper-slide">
-                                <img
-                                    alt=""
-                                    src="https://res.cloudinary.com/dnnpulqtc/image/upload/v1666519551/pr/cambodia-ratanakiri-scenery_jvsksa.jpg"
-                                />
-                            </div>
-                            <div class="swiper-slide">
-                                <img
-                                    alt=""
-                                    src="https://res.cloudinary.com/dnnpulqtc/image/upload/v1666524206/pr/dfdbgb_eyq2bz.jpg"
-                                />
-                            </div>
-                            <div class="swiper-slide">
-                                <img
-                                    alt=""
-                                    src="https://res.cloudinary.com/dnnpulqtc/image/upload/v1666524147/pr/200_m8zqla.jpg"
-                                />
-                            </div>
-                            <div class="swiper-slide">
-                                <img
-                                    alt=""
-                                    src="https://res.cloudinary.com/dnnpulqtc/image/upload/v1666785991/pr/photo_2022-06-07_18-32-07_rihnpe.jpg"
-                                />
-                            </div>
-                            <div class="swiper-slide">
-                                <img
-                                    alt=""
-                                    src="https://res.cloudinary.com/dnnpulqtc/image/upload/v1666519551/pr/cambodia-ratanakiri-scenery_jvsksa.jpg"
-                                />
-                            </div>
-                        </div>
-
-                        <div class="swiper-button-next"></div>
-                        <div class="swiper-button-prev"></div>
-                    </div>
-                    <h1>sdfisdilfahdfskaldjdsk</h1>
-                </div>
-                    <!-- thump -->
-                    <div thumbsSlider="" class="swiper thumpPic">
-                        <div class="swiper-wrapper">
-                            <div class="swiper-slide">
-                                <img
-                                    alt=""
-                                    src="https://res.cloudinary.com/dnnpulqtc/image/upload/v1666519551/pr/cambodia-ratanakiri-scenery_jvsksa.jpg"
-                                />
-                            </div>
-                            <div class="swiper-slide">
-                                <img
-                                    alt=""
-                                    src="https://res.cloudinary.com/dnnpulqtc/image/upload/v1666524206/pr/dfdbgb_eyq2bz.jpg"
-                                />
-                            </div>
-                            <div class="swiper-slide">
-                                <img
-                                    alt=""
-                                    src="https://res.cloudinary.com/dnnpulqtc/image/upload/v1666524147/pr/200_m8zqla.jpg"
-                                />
-                            </div>
-                            <div class="swiper-slide">
-                                <img
-                                    alt=""
-                                    src="https://res.cloudinary.com/dnnpulqtc/image/upload/v1666785991/pr/photo_2022-06-07_18-32-07_rihnpe.jpg"
-                                />
-                            </div>
-                            <div class="swiper-slide">
-                                <img
-                                    alt=""
-                                    src="https://res.cloudinary.com/dnnpulqtc/image/upload/v1666519551/pr/cambodia-ratanakiri-scenery_jvsksa.jpg"
-                                />
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div>
-                    <h1 class="name">Ratanakiri, Cambodia</h1>
-                    <p class="paragraph">
-                        Ratanakiri is a nature-filled reprieve for travelers
-                        suffering from temple-fatigue. This is outback Cambodia,
-                        and the endless red-dirt roads of the region, leading to
-                        ethnic minority villages, are an intrepid traveler's
-                        delight. For those with an adventurous streak, the
-                        province is one of the best places in Cambodia for
-                        trekking, from spotting gibbons at Veun Sai-Siem Pang
-                        Conservation Area, where overnight trips involve
-                        sleeping in hammocks and early rises to track
-                        buff-cheeked gibbons, to hiking in Virachey National
-                        Park home to elephants, tigers, and sun bears. There's
-                        more relaxing options on offer as well. The emerald
-                        water of Yeak Lom Crater Lake just outside of Ban Lung
-                        town is a tranquil swimming spot, while the waterfalls
-                        of Chaa Ong and Ka Tieng are fun diversions that provide
-                        more opportunities for getting wet.
-                    </p>
-                </div>
+              <div class="swiper-button-next"></div>
+              <div class="swiper-button-prev"></div>
             </div>
-            <div id="detail"></div>
-        </main>
-        <script type="module" src="../src/tourDetail.js"></script>
-        <script type="module" src="../src/swiper.js"></script>
-        <footer></footer>
-    </body>
+            <div>
+                <p class="title">Ankor wat temple - siemreap province</p>
+            </div>
+          </div>
+          <!-- thump -->
+          <div thumbsSlider="" class="swiper thumpPic">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <img
+                  alt=""
+                  src="https://res.cloudinary.com/dnnpulqtc/image/upload/v1666519551/pr/cambodia-ratanakiri-scenery_jvsksa.jpg"
+                />
+              </div>
+              <div class="swiper-slide">
+                <img
+                  alt=""
+                  src="https://res.cloudinary.com/dnnpulqtc/image/upload/v1666524206/pr/dfdbgb_eyq2bz.jpg"
+                />
+              </div>
+              <div class="swiper-slide">
+                <img
+                  alt=""
+                  src="https://res.cloudinary.com/dnnpulqtc/image/upload/v1666524147/pr/200_m8zqla.jpg"
+                />
+              </div>
+              <div class="swiper-slide">
+                <img
+                  alt=""
+                  src="https://res.cloudinary.com/dnnpulqtc/image/upload/v1666785991/pr/photo_2022-06-07_18-32-07_rihnpe.jpg"
+                />
+              </div>
+              <div class="swiper-slide">
+                <img
+                  alt=""
+                  src="https://res.cloudinary.com/dnnpulqtc/image/upload/v1666519551/pr/cambodia-ratanakiri-scenery_jvsksa.jpg"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div>
+          <p class="paragraph">
+            Ratanakiri is a nature-filled reprieve for travelers suffering from
+            temple-fatigue. This is outback Cambodia, and the endless red-dirt
+            roads of the region, leading to ethnic minority villages, are an
+            intrepid traveler's delight. For those with an adventurous streak,
+            the province is one of the best places in Cambodia for trekking,
+            from spotting gibbons at Veun Sai-Siem Pang Conservation Area, where
+            overnight trips involve sleeping in hammocks and early rises to
+            track buff-cheeked gibbons, to hiking in Virachey National Park home
+            to elephants, tigers, and sun bears. There's more relaxing options
+            on offer as well. The emerald water of Yeak Lom Crater Lake just
+            outside of Ban Lung town is a tranquil swimming spot, while the
+            waterfalls of Chaa Ong and Ka Tieng are fun diversions that provide
+            more opportunities for getting wet.
+          </p>
+        </div>
+      <div id="detail"></div>
+    </main>
+    <script type="module" src="../src/tourDetail.js"></script>
+    <script type="module" src="../src/swiper.js"></script>
+    <footer></footer>
+  </body>
 </html>

@@ -36,7 +36,7 @@ new Swiper(".mySwiper", {
 //tourDetail
 let thumpPic = new Swiper(".thumpPic", {
     loop: true,
-    spaceBetween: 10,
+    spaceBetween: 20,
     slidesPerView: 4,
     freeMode: true,
     watchSlidesProgress: true,
@@ -44,7 +44,7 @@ let thumpPic = new Swiper(".thumpPic", {
 });
 let main = new Swiper(".mainPic", {
     loop: true,
-    spaceBetween: 10,
+    spaceBetween: 20,
     navigation: {
         nextEl: ".swiper-button-next",
         prevEl: ".swiper-button-prev",
