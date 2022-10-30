@@ -11,23 +11,30 @@
     gap: 10px;
     display: flex;
     flex-direction: column;
-    width: 70%;
+    width: 60%;
     margin: 0 auto;
 }
 
 .grid_box {
     display: grid;
-    grid-template-columns: repeat(11, minmax(0, 1fr));
+    grid-template-columns: repeat(12, minmax(0, 1fr));
     width: 100%;
     column-gap: 20px;
 }
 
 .grid_box > div:nth-child(1) {
-    grid-column: span 8 / span 8;
+    grid-column: span 9 / span 9;
 }
 
 .grid_box > div:nth-child(2) {
     grid-column: span 3 / span 3;
+}
+
+.flex_between {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 15px;
 }
 
 .swiper {
@@ -56,6 +63,10 @@
     object-fit: cover;
 }
 
+.thumpPic {
+    height: 500px !important;
+}
+
 .thumpPic .swiper-slide {
     width: 90% !important;
     transition: all 0.3s ease-in-out;
@@ -65,10 +76,22 @@
     width: 100% !important;
 }
 
-.name {
-    margin: 5px 0;
+.title {
+    font-size: 32px;
+    text-transform: capitalize;
 }
 
 .paragraph {
     line-height: 2;
+    padding: 50px;
+}
+
+.paragraph::first-letter{
+    padding: 0 .3rem;
+    margin: 0 .3rem 0 0;
+    border-radius: 8px;
+    font-size: 3.8rem;
+    font-weight: 900;
+    float: left;
+    line-height: 1;
 }
