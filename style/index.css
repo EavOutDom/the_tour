@@ -2,10 +2,9 @@
 :root {
     --primaryColor: #121212;
     --secondaryColor: #0b216d;
-    --tertiaryColor: #ffffff1a;
+    --tertiaryColor: #faa327;
     --primaryFontColor: #ffffff;
-    --secondaryFontColor: #faa327;
-    --tertiaryFontColor: #ef4992;
+    --secondaryFontColor: #ef4992;
 }
 
 a {
@@ -18,6 +17,10 @@ a {
     font-family: "Lexend", sans-serif;
     color: #000000;
     box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
 }
 
 body {

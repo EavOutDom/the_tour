@@ -45,16 +45,16 @@
         {
             "id": 7,
             "name": "Yan Theang",
-            "title": "Mobile app developer",
+            "title": "Network",
             "url": "theang.html",
-            "img": "https://res.cloudinary.com/dnnpulqtc/image/upload/v1655180441/cld-sample.jpg"
+            "img": "https://res.cloudinary.com/dnnpulqtc/image/upload/v1667106834/pr/photo_2022-10-30_12-12-22_bcbsjh.jpg"
         },
         {
             "id": 8,
             "name": "Heang Menea",
-            "title": "Mobile app developer",
+            "title": "Network",
             "url": "menea.html",
-            "img": "https://res.cloudinary.com/dnnpulqtc/image/upload/v1655180441/cld-sample.jpg"
+            "img": "https://res.cloudinary.com/dnnpulqtc/image/upload/v1667106843/pr/photo_2022-10-30_12-13-25_tvzlrw.jpg"
         }
     ]
 }

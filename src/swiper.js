@@ -1,4 +1,4 @@
-import data from "../data.json" assert { type: "json" };
+import data from "../data/member.json" assert { type: "json" };
 
 
 new Swiper(".swipe_img", {

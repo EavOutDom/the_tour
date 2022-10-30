@@ -1,7 +1,7 @@
-import { testData } from "../data.js";
+import data from "../data/tour.json" assert { type: "json" };
 
 const listTour = document.querySelector("#list_tour");
-const showHTML = testData
+const showHTML = data.tour
     .map(
         (data) =>
             `<a id='${data.id}' class='id' href='./tourDetail.html'>
@@ -9,12 +9,12 @@ const showHTML = testData
             <div class="list_img">
                 <img
                     alt=""
-                    src="${data.img}"
+                    src="${data.image[0]}"
                 />
             </div>
             <div>
-                <h3 class='list_name'>${data.name}</h3>
-                <p class='list_desc'>${data.content}</p>
+                <h3 class='list_name'>${data.title}</h3>
+                <p class='list_desc'>${data.desc}</p>
             </div>
         </div>
         </a>`
