@@ -54,7 +54,7 @@ ion-icon {
 ion-icon:hover {
     transition: all 0.3s ease-out;
     color: var(--secondaryColor);
-    scale: 1.1;
+    scale: 1.15;
 }
 
 .image_profile {

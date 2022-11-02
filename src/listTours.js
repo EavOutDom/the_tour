@@ -1,6 +1,6 @@
 import data from "../data/tour.json" assert { type: "json" };
 
-const listTour = document.querySelector("#list_tour");
+const listTour = document.querySelector("#list_tourx");
 const showHTML = data.tour
     .map(
         (data) =>

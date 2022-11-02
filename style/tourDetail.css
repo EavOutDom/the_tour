@@ -1,5 +1,5 @@
 @import "./index.css";
-@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@200;300;400&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Lexend:wght@200;300;400&display=swap");
 
 /*  --background Color: #121212;
     --secondaryColor: #0b216d;
@@ -108,12 +108,61 @@ section {
     line-height: 2;
     padding: 0 50px;
     font-weight: 300;
-    font-size: 20px;
 }
 
-.map {
+.px-50 {
     padding: 0 50px;
 }
+
+.recmd_box {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.recmd_box > a {
+    width: 280px;
+    height: 100px;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+}
+
+.recmd_box .img_recmd {
+    height: 100%;
+    width: 100px;
+    overflow: hidden;
+}
+
+.img_recmd > img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: all 0.3s ease-in-out;
+}
+
+.recmd_box > a:hover .img_recmd img {
+    scale: 1.15;
+}
+
+.recmd_box p {
+    padding: 4px 2px;
+    white-space: nowrap;
+    width: 170px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    font-size: 14px;
+}
+
+.recmd_box p:first-child {
+    font-weight: 600;
+}
+.recmd_box p:last-child {
+    font-weight: 500;
+}
+
 
 /* .paragraph::first-letter {
     padding: 0 0.3rem;
