@@ -321,13 +321,6 @@ main {
     order: 1;
 }
 
-.list_name {
-    /* padding: 10px 0; */
-}
-
-.list_desc {
-}
-
 .order {
     display: grid;
     grid-template-columns: repeat(2, minmax(0, 1fr));
@@ -402,7 +395,7 @@ main {
     transition: all 0.3s ease-in-out;
 }
 
-.ellipsis h3, .ellipsis p{
+.ellipse h3, .ellipse p{
     white-space: nowrap;
     width: 270px;
     overflow: hidden;
