@@ -1,0 +1,28 @@
+{
+    "hero": [
+        {
+            "id": 1,
+            "image": "https://res.cloudinary.com/dnnpulqtc/image/upload/v1666498759/pr/1_un9kpm.jpg",
+            "head_1": "Let's make your dream come true with TheTour",
+            "head_2": "We always make our customer happy by providing many choice."
+        },
+        {
+            "id": 2,
+            "image": "https://res.cloudinary.com/dnnpulqtc/image/upload/v1666517195/pr/12_bjawbu.jpg",
+            "head_1": "Let's make your dream come true with TheTour",
+            "head_2": "We always make our customer happy by providing many choice."
+        },
+        {
+            "id": 3,
+            "image": "https://res.cloudinary.com/dnnpulqtc/image/upload/v1666516780/pr/2_wrvvar.jpg",
+            "head_1": "Let's make your dream come true with TheTour",
+            "head_2": "We always make our customer happy by providing many choice."
+        },
+        {
+            "id": 4,
+            "image": "https://res.cloudinary.com/dnnpulqtc/image/upload/v1666517457/pr/3_tznnbq.jpg",
+            "head_1": "Travel where your heart leads",
+            "head_2": "Never stop exploring."
+        }
+    ]
+}

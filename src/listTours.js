@@ -1,8 +1,10 @@
 import data from "../data/tour.json" assert { type: "json" };
+import items from "../data/heroSlice.json" assert { type: "json" };
 
 const listTour = document.querySelector("#list_tour");
-const showList = data.tours.map((tour) => {
-    return `<a href="tourDetail.html" id='${tour.id}' class='id'>
+const showList = data.tours
+    .map((tour) => {
+        return `<a href="tourDetail.html" id='${tour.id}' class='id'>
         <div class="box_list">
             <div class="list_img">
             <img
@@ -16,7 +18,8 @@ const showList = data.tours.map((tour) => {
         </div>
     </div>
 </a>`;
-}).join('');
+    })
+    .join("");
 
 listTour.innerHTML = showList;
 
@@ -27,30 +30,24 @@ $(document).ready(function () {
     });
 });
 
+const swiperWrapper = document.getElementById("swr");
+const slide = items.hero
+    .map((item) => {
+        return `<div class="swiper-slide">
+        <div class="hero_img">
+        <img
+            src="${item.image}"
+            alt=""
+        />
+        <h1>
+            ${item.head_1}
+        </h1>
+        <p>
+            ${item.head_2}
+        </p>
+    </div>
+</div>`;
+    })
+    .join("");
 
-// import data from "../data/tour.json" assert { type: "json" };
-
-// const listTour = document.querySelector("#list_tourx");
-// const showHTML = data.tour
-//     .map(
-//         (data) =>
-//             `<a id='${data.id}' class='id' href='./tourDetail.html'>
-//             <div class="box_list">
-//             <div class="list_img">
-//                 <img
-//                     alt=""
-//                     src="${data.image[0]}"
-//                 />
-//             </div>
-//             <div>
-//                 <h3 class='list_name'>${data.title}</h3>
-//                 <p class='list_desc'>${data.desc}</p>
-//             </div>
-//         </div>
-//         </a>`
-//     )
-//     .join("");
-
-// listTour.innerHTML = showHTML;
-
-
+swiperWrapper.innerHTML = slide;

@@ -1,6 +1,3 @@
-import data from "../data/member.json" assert { type: "json" };
-
-
 new Swiper(".swipe_img", {
     loop: true,
     speed: 1000,
