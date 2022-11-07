@@ -19,7 +19,7 @@ const detail = (document.getElementById("detail").innerHTML = `
                 <div class="box">
                     <div class="grid_box">
                         
-                        <div class="flex_between">
+                        <div class="flex_between_column">
                             <div
                                 class="swiper mainPic"
                                 style="

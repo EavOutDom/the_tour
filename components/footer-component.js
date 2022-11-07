@@ -9,7 +9,7 @@ class MyFooter extends HTMLElement {
         <div class="flex_between">
             <div>
                 <h1>TheTour</h1>
-                <p>Help your find your favorite destination.</p>
+                <p>Help you find your favorite destination.</p>
             </div>
             <div class="icons">
                 <ion-icon name="logo-facebook" size="large" style='color: white'></ion-icon>

@@ -49,7 +49,7 @@ section {
     grid-column: span 3 / span 3;
 }
 
-.flex_between {
+.flex_between_column {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
