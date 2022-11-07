@@ -25,12 +25,27 @@
             src="../components/header-component.js"
             defer
         ></script>
+        <!-- footer component -->
+        <script
+            type="text/javascript"
+            src="../components/footer-component.js"
+            defer
+        ></script>
+        <!-- icon -->
+        <script
+            type="module"
+            src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+        ></script>
+        <script
+            nomodule
+            src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+        ></script>
         <title>TheTour</title>
     </head>
     <body>
         <header-component></header-component>
         <main>
-            <a href="#list_tour">
+            <a href="#list_scroll">
                 <section class="content">
                     <div class="swiper swipe_img">
                         <div class="swiper-wrapper">
@@ -179,16 +194,13 @@
                     </div>
                 </div>
             </section>
-            <section class="section_list">
+            <section class="section_list" id="list_scroll">
                 <h1 class="txt_h1">Destinations</h1>
-                <div id="list_tour" class="">
-                    
-                </div>
-                <!-- <div id="list_tour" class="scroll"></div> -->
+                <div id="list_tour" class=""></div>
             </section>
         </main>
+        <footer-component></footer-component>
         <script type="module" src="../src/listTours.js"></script>
         <script type="module" src="../src/swiper.js"></script>
-        <footer></footer>
     </body>
 </html>

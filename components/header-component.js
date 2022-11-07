@@ -8,7 +8,7 @@ class MyHeader extends HTMLElement {
         <nav id="nav">
             <div class="container">
                 <a href="index.html" id="icon">
-                Hello   
+                TheTour   
                 </a>
                 <ul class="navList">
                     <li>

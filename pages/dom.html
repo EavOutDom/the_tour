@@ -6,10 +6,10 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
         <!-- Albe Timeline CSS -->
-<link rel="stylesheet" href="css/style-albe-timeline.css" />
+        <link rel="stylesheet" href="css/style-albe-timeline.css" />
 
-<!-- Albe Timeline JS -->
-<script src="js/jquery-albe-timeline.min.js"></script>
+        <!-- Albe Timeline JS -->
+        <script src="js/jquery-albe-timeline.min.js"></script>
 
         <!-- css-->
         <link rel="stylesheet" href="../style/index.css" type="text/css" />
@@ -27,6 +27,12 @@
         <script
             type="text/javascript"
             src="../components/header-component.js"
+            defer
+        ></script>
+        <!-- footer component -->
+        <script
+            type="text/javascript"
+            src="../components/footer-component.js"
             defer
         ></script>
         <!-- icon -->
@@ -106,7 +112,12 @@
                 </div>
             </section>
             <section>
-                <div class="timeline" data-mode="horizontal" data-visible-items="4" data-force-vertical-width="800">
+                <div
+                    class="timeline"
+                    data-mode="horizontal"
+                    data-visible-items="4"
+                    data-force-vertical-width="800"
+                >
                     <div class="timeline__wrap">
                         <div class="timeline__items">
                             <div class="timeline__item">
@@ -140,6 +151,6 @@
             </section>
         </main>
         <script src="../src/dom.js"></script>
-        <footer></footer>
+        <footer-component></footer-component>
     </body>
 </html>

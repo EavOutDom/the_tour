@@ -1,23 +1,26 @@
 
-.profile{
+.image-part{
     margin-top: 50px;
     border-radius: 10px;
     margin-left:auto;
     margin-right: auto;
     width: 250px;
     height: 330px;
-    display: block;
     border: solid rgb(220, 224, 227) 5px;
-    
+    overflow: hidden;
+}
+
+.image-part img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
 }
 
 
 
-.content{
-    
-    display: block;
-    width: auto;
+.content-text{
     text-align: center;
+    margin-bottom: 40px;
 }
 
 span{

@@ -23,6 +23,7 @@
     width: 200px;
     position: relative;
     overflow: hidden;
+    margin-bottom: 30px;
 }
 
 .image::before {

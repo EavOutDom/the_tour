@@ -40,19 +40,11 @@
     margin: 5px 0;
 }
 
-.icons {
-    display: flex;
-    align-items: center;
-    justify-content: start;
-    gap: 2rem;
-    margin: 1rem 0;
-}
-
 ion-icon {
     transition: all 0.3s ease-in;
+    color: #000;
 }
 ion-icon:hover {
-    transition: all 0.3s ease-out;
     color: var(--secondaryColor);
     scale: 1.15;
 }

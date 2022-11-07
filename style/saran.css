@@ -6,28 +6,33 @@
     --secondaryFontColor: #ffeb3b;
     --tertiaryFontColor: #ef4992; */
 
-h1 {
-    color: var(--secondaryFontColor);
-}
 .wall{
     width: 100%;
     height: 100vh;
     
 }
+
 .pic1{
-    margin-top: 70px;
     border-radius: 50%;
-    margin-left: auto;
-    margin-right: auto;
+    margin: 70px auto 20px;
     width: 150px;
     height: 150px;
-    display: block;
-    
+    overflow: hidden;
+}
 
+.pic1 img {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
 }
-.p1,b{
-    text-align: center;
+
+.content_center {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
 }
+
 .p2{
     text-align: center;
 }
@@ -39,3 +44,10 @@ h1 {
     align-items: center;
     gap: 20px;
 }
+
+.icon_box a, .icon_box p {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+

@@ -401,3 +401,44 @@ main {
     overflow: hidden;
     text-overflow: ellipsis;
 }
+
+footer {
+    background-color: #000;
+    width: 100%;
+}
+
+.footer_container{
+    width: 100%;
+    background-color: transparent;
+    padding: 50px 15px;
+}
+
+.flex_between {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 0;
+}
+
+.flex_between p, .flex_between h1, .flex_between h3{
+    color: #fff;
+    text-transform: capitalize;
+}
+
+.flex_between h3 {
+    padding-bottom: 10px;
+}
+
+.icons {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    gap: 1rem;
+    margin: 1rem 0;
+}
+
+ion-icon {
+    transition: all 0.3s ease-in;
+}
+ion-icon:hover {
+    scale: 1.15;
+}
