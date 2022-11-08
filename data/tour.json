@@ -1,32 +1,76 @@
 {
-  "tours": [
-    {
-      "id": 1,
-      "title": "Kompong Cham, Cambodia",
-      "sub_title": "one of popular place in cambodia",
-      "images": [
-        "https://res.cloudinary.com/dnnpulqtc/image/upload/v1666524206/pr/dfdbgb_eyq2bz.jpg",
-        "https://res.cloudinary.com/dnnpulqtc/image/upload/v1666524206/pr/dfdbgb_eyq2bz.jpg",
-        "https://res.cloudinary.com/dnnpulqtc/image/upload/v1666524206/pr/dfdbgb_eyq2bz.jpg",
-        "https://res.cloudinary.com/dnnpulqtc/image/upload/v1666524206/pr/dfdbgb_eyq2bz.jpg"
-      ],
-      "category": ["Temple", "Siem Reap"],
-      "description": "The ruins of Angkor located amid forests and Farland, are now a UNESCO World Heritage Site. There are over one thousand temples ranging in scale from nondescript piles of brick rubble scattered through rice fields to the magnificent Angkor Wat which is said to be the world’s largest single religious monument. There are dozens of temple ruins in the Siem Reap area and it depends largely on how much time one has and one’s level of interest to determine how long one should spend to explore them.",
-      "google_map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2066.163315032602!2d104.86188310591267!3d11.54256100374183!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3109512c16cee8b1%3A0x8efd7b835a0d8eca!2sHome%20IT!5e0!3m2!1sen!2skh!4v1667561458254!5m2!1sen!2skh"
-    },
-    {
-      "id": 2,
-      "title": "Koh kong, Cambodiaaaaaaaaaaaaaa",
-      "sub_title": "one of popularrrrrrrrr place in cambodia",
-      "images": [
-        "https://res.cloudinary.com/dnnpulqtc/image/upload/v1666785991/pr/photo_2022-06-07_18-32-07_rihnpe.jpg",
-        "https://res.cloudinary.com/dnnpulqtc/image/upload/v1666785991/pr/photo_2022-06-07_18-32-07_rihnpe.jpg",
-        "https://res.cloudinary.com/dnnpulqtc/image/upload/v1666785991/pr/photo_2022-06-07_18-32-07_rihnpe.jpg",
-        "https://res.cloudinary.com/dnnpulqtc/image/upload/v1666785991/pr/photo_2022-06-07_18-32-07_rihnpe.jpg"
-      ],
-      "category": ["Temple", "Koh Kong"],
-      "description": "The ruins of Angkor located amid forests and Farland, are now a UNESCO World Heritage Site. There are over one thousand temples ranging in scale from nondescript piles of brick rubble scattered through rice fields to the magnificent Angkor Wat which is said to be the world’s largest single religious monument. There are dozens of temple ruins in the Siem Reap area and it depends largely on how much time one has and one’s level of interest to determine how long one should spend to explore them.",
-      "google_map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2996.344070134764!2d104.8622711530084!3d11.542753604666142!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3109511ab2c505f5%3A0xfc6b89e98d383ef5!2sSweet%20Home!5e0!3m2!1sen!2skh!4v1667561684874!5m2!1sen!2skh"
-    }
-  ]
+    "tours": [
+        {
+            "id": 1,
+            "title": "Angkor Wat (Angkor Archaeological Park)",
+            "sub_title": "The UNESCO World Heritage Site",
+            "images": [
+                "https://res.cloudinary.com/dnnpulqtc/image/upload/v1667832439/pr/an-aerial-view-of-the-angkor-wat-temple-2_hzoer8.jpg",
+                "https://res.cloudinary.com/dnnpulqtc/image/upload/v1667832439/pr/Angkor-Wat_2_svmble.jpg",
+                "https://res.cloudinary.com/dnnpulqtc/image/upload/v1667832299/pr/photo-1551155674-6d39c2140d6d_wfmqnb.jpg",
+                "https://res.cloudinary.com/dnnpulqtc/image/upload/v1667832218/pr/photo-1566706546199-a93ba33ce9f7_j9oa44.jpg"
+            ],
+            "category": ["Temple", "Siem Reap"],
+            "description": "This temple city is the number one tourist spot in Cambodia. Accessed from the town of Siem Reap, the temples of the Angkorian period are so ambitious in scale and in the majesty of their construction, that Angkor Wat is rated as one of the world's must-see ancient sites. Built between 802 and 1432, this was the largest city in the world during the medieval age and the vast powerhouse of the Khmer kings who endeavored to outbid their predecessors in the beauty of their construction. As the city's wooden dwellings were encroached and then decayed by the surrounding jungle, what remains today, are just those mighty temples. The temple of Angkor Wat itself, the world's largest religious building, is only one sliver of the site in total, and the sprawling circuit of temples deserves three days to explore if you want to understand the scope of the Angkorian period's architectural achievements. For those short on time though, the main highlights after Angkor Wat are the tree-root clasped temple of Ta Prohm (which first found international fame as a location used in the movie Tomb Raider), the Bayon Temple for its 216 stone-carved faces, Angkor Thom and Preah Khan.",
+            "google_map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3880.9977007254624!2d103.86479701415902!3d13.41246929056771!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3110168aea9a272d%3A0x3eaba81157b0418d!2sAngkor%20Wat!5e0!3m2!1sen!2skh!4v1667832704599!5m2!1sen!2skh"
+        },
+        {
+            "id": 2,
+            "title": "Koh Rong Samloem, Cambodia",
+            "sub_title": "The Paradisiacal Island",
+            "images": [
+                "https://res.cloudinary.com/dnnpulqtc/image/upload/v1667834092/pr/2L1A5139_vr9huk.jpg",
+                "https://res.cloudinary.com/dnnpulqtc/image/upload/v1667834093/pr/DSC04716-1440x960_zysfss.jpg",
+                "https://res.cloudinary.com/dnnpulqtc/image/upload/v1667834092/pr/Nothing-Familiar-10_i9gawl.jpg",
+                "https://res.cloudinary.com/dnnpulqtc/image/upload/v1667834092/pr/bad837a329d3b0db685b817c0c272499_vuuk41.jpg",
+                "https://res.cloudinary.com/dnnpulqtc/image/upload/v1667834094/pr/Koh-Rong-Samloem-Koh-Tas-03_xlqxkd.jpg"
+            ],
+            "category": ["Sea", "Island"],
+            "description": "Just off Cambodia's south coast lie a scattering of islands just as beautiful as their Thai counterparts to the west, but much less visited. Compared to the now very developed islands of Koh Samui and Phuket, Cambodia's islands are a slice of laid-back tropical bliss, where sun and sand take center stage, and the big resorts have yet to make their mark. Of all the islands, Koh Rong Samloem is one of the most beautiful, with the long, sandy Saracen Bay home to a dozen beach hut resorts that offer a welcome respite from the world. It's really all about hammock-time here, but there's plenty of scuba diving activities on offer for the more active. You can access these islands from Sihanoukville.",
+            "google_map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d62751.07172194335!2d103.27405847743205!3d10.583709217743552!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3107eede3706b249%3A0xf4bc7be5df0f6e74!2sKoh%20Rong%20Sanloem!5e0!3m2!1sen!2skh!4v1667834707473!5m2!1sen!2skh"
+        },
+        {
+            "id": 3,
+            "title": "Kampot, Cambodia",
+            "sub_title": "The Scenic Riverside City",
+            "images": [
+                "https://res.cloudinary.com/dnnpulqtc/image/upload/v1667880634/pr/1200px-Kampot_20110429-019_hffnqr.jpg",
+                "https://res.cloudinary.com/dnnpulqtc/image/upload/v1667881017/pr/dsc_9022_y1sjw6.jpg",
+                "https://res.cloudinary.com/dnnpulqtc/image/upload/v1667881095/pr/ccimage-shutterstock_120871342_ktpsvi.jpg",
+                "https://res.cloudinary.com/dnnpulqtc/image/upload/v1667881137/pr/Kampot-Cambodia_rvkpxw.jpg"
+            ],
+            "category": ["Sea", "Resorts"],
+            "description": "The laid-back riverine town of Kampot has oodles of old-world ambience. The compact central district is a joy to ramble around, full of surviving shop-house architecture, some of which has been painstakingly restored. Kampot's charm lies in its exceedingly chilled-out atmosphere, and many a traveler finds themselves waylaid here longer than they expected, having succumbed to its easygoing pace. For the more active though, this is also an excellent base for discovering the surrounding sights of the south. The old French summer getaway of Boker Hill Station, with its abandoned church and eerie, empty shell of a once-grand hotel, is an easy day trip from town, as are the limestone caves of Phnom Chhnork and Phnom Sorsia both with old temples inside.",
+            "google_map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d125499.18873974918!2d104.0981163436015!3d10.590926015564786!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x310836897d5fd26f%3A0x6f50ed443bd607ff!2sKrong%20Kampot!5e0!3m2!1sen!2skh!4v1667881268397!5m2!1sen!2skh"
+        },
+        {
+            "id": 4,
+            "title": "Kratie, Cambodia",
+            "sub_title": "The Little Charming Town",
+            "images": [
+                "https://res.cloudinary.com/dnnpulqtc/image/upload/v1667882925/pr/kratie-town_btkezg.jpg",
+                "https://res.cloudinary.com/dnnpulqtc/image/upload/v1667882208/pr/a5f52d4810c1c9fdb38b5e074971285b_pjidga.jpg",
+                "https://res.cloudinary.com/dnnpulqtc/image/upload/v1667882208/pr/kratie-cambodia_rtgvuf.jpg",
+                "https://res.cloudinary.com/dnnpulqtc/image/upload/v1667882208/pr/Memorial_Monument_-_Kratie_province_-_Cambodia_gvui85.jpg",
+                "https://res.cloudinary.com/dnnpulqtc/image/upload/v1667882211/pr/kratie-cambodia-mekong-delta-river-resort_u40c3h.jpg"
+            ],
+            "category": ["Mekong river"],
+            "description": "Kratie is one of Cambodia's eastern provinces with less population, who make their lives on the riverbanks of the Mekong. Beyond the riverbanks it is a remote place with almost no population and thick-forested areas to calm down. The provincial capital is also called Kratie and lies also on the banks of the mighty Mekong River, which emboss the province from the North to the South. The stretch of the river around Kratie town is home to a group of rare sweet water Irrawaddy dolphins. Therefore the dolphins are the main tourist attraction of the province and the town. The river also has hundreds of green island, and circling water, which are also attracting some tourists. Kratie town is sleepy but picturesque with sandbars and big islands out front and bends in the river. Unlike in many towns around Cambodia, the war years were fairly kind to the French architecture and the roads, at least in the town itself. There are some nice-looking homes of French and Khmer style scattered about, adding to the pleasant feel of the place. You'll also find a bustling market which is a great place to watch frogs being skinned (and escaping first through the holes in the nets), sample some delicious foods (such as freshly grilled corn cakes) and generally take in rural Cambodian life. The rare freshwater Irrawaddy dolphins make their home in the Mekong River, just north of Kratie. With only around 120 remaining, they are surely worth a visit. Whether you are just on a trip seeing the river towns along the Mekong or taking a full circuit trip around the east and northeast, Kratie is a nice place to spend a night or two. The river scene of Kratie has a beautiful river boulevard with dozens of snack and drink stands in the late afternoon and evening, making this a nice spot to chill out and watch the people parading by. There are also a few big concrete decks along the river scene. The river road is a great place for a stroll or jog. Enjoy the dramatic sunsets over the Mekong.",
+            "google_map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d996491.1325244097!2d105.63387041101986!3d12.677909850704795!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x310d1a5a3f19ca7b%3A0xbf92475cedfd9116!2sKrati%C3%A9%20Province!5e0!3m2!1sen!2skh!4v1667882769897!5m2!1sen!2skh"
+        },
+        {
+            "id": 5,
+            "title": " Sihanoukville",
+            "sub_title": "The Snorkeling Spot",
+            "images": [
+                "https://res.cloudinary.com/dnnpulqtc/image/upload/v1667883164/pr/69919-Sihanoukville_iq0ge9.jpg",
+                "https://res.cloudinary.com/dnnpulqtc/image/upload/v1667884086/pr/otres-beach-near-sihanoukville-in-southern-cambodia-2_51eef42ae7_dlfxl9.jpg",
+                "https://res.cloudinary.com/dnnpulqtc/image/upload/v1667884175/pr/sokha-beach_k8goat.jpg",
+                "https://res.cloudinary.com/dnnpulqtc/image/upload/v1667884240/pr/31543536503_75cdb5bded_b_nybthe.jpg"
+            ],
+            "category": ["Sea"],
+            "description": "Sure, Sihanoukville (ក្រុងព្រះសីហនុ) would never win first prize in a pretty-town competition, and much of it is now dominated by casinos and tacky commercial centres. But despite the rapid and mostly unwanted development, it has remained the jumping-off point for the best of Cambodia's white-sand beaches and castaway-cool southern islands. The Serendipity Beach area is a decompression chamber for backpackers, who flock here to rest up between travels and party through the night. Away from the hustle south of town is relaxed Otres Beach, where cheap bungalow joints and bohemian-flavoured guesthouses are now neighbours with rather swish boutique resorts. Although much of the beachfront will likely be cleared for large-scale development in the future, for now the mellow scene still allows for lazy days of sunbathing and whirlwind nights of bar-hopping.",
+            "google_map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d250940.18552328984!2d103.2468854972809!3d10.661734361903306!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3107e1dd2f564c45%3A0x13f1f8da254362ed!2sPreah%20Sihanouk!5e0!3m2!1sen!2skh!4v1667883276462!5m2!1sen!2skh"
+        }
+    ]
 }
