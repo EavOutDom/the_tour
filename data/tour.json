@@ -60,7 +60,7 @@
         },
         {
             "id": 5,
-            "title": " Sihanoukville",
+            "title": "Sihanoukville",
             "sub_title": "The Snorkeling Spot",
             "images": [
                 "https://res.cloudinary.com/dnnpulqtc/image/upload/v1667883164/pr/69919-Sihanoukville_iq0ge9.jpg",
@@ -71,6 +71,33 @@
             "category": ["Sea"],
             "description": "Sure, Sihanoukville (ក្រុងព្រះសីហនុ) would never win first prize in a pretty-town competition, and much of it is now dominated by casinos and tacky commercial centres. But despite the rapid and mostly unwanted development, it has remained the jumping-off point for the best of Cambodia's white-sand beaches and castaway-cool southern islands. The Serendipity Beach area is a decompression chamber for backpackers, who flock here to rest up between travels and party through the night. Away from the hustle south of town is relaxed Otres Beach, where cheap bungalow joints and bohemian-flavoured guesthouses are now neighbours with rather swish boutique resorts. Although much of the beachfront will likely be cleared for large-scale development in the future, for now the mellow scene still allows for lazy days of sunbathing and whirlwind nights of bar-hopping.",
             "google_map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d250940.18552328984!2d103.2468854972809!3d10.661734361903306!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3107e1dd2f564c45%3A0x13f1f8da254362ed!2sPreah%20Sihanouk!5e0!3m2!1sen!2skh!4v1667883276462!5m2!1sen!2skh"
+        },{
+            "id": 6,
+            "title": "Poipet, Cambodia",
+            "sub_title": "The Land Of Casinos",
+            "images": [
+                "https://res.cloudinary.com/dnnpulqtc/image/upload/v1667919626/pr/286632_120511144117423_zu7n3d.jpg",
+                "https://res.cloudinary.com/dnnpulqtc/image/upload/v1667919628/pr/Star-Vegas-in-Cambodia_ksimvd.jpg",
+                "https://res.cloudinary.com/dnnpulqtc/image/upload/v1667919657/pr/286632_120511144300041_fqjxqm.jpg",
+                "https://res.cloudinary.com/dnnpulqtc/image/upload/v1667919658/pr/WgNBzM30xGuNBtcMBjcfAke0nBzMmqv7WE0sKiju2YxaCJA_2JNwf2W1Qs9SRjakrKoKr8kir2jxP82H9F6r2P1F65PkmOXt_2G8huje2swH9zcBMV7SL-1mhVMRe0eCOiYk1E0E_l9xex6.jpg"
+            ],
+            "category": ["Casino"],
+            "description": "Long the no-go part of Cambodia for tourists, notorious for its squalor, scams and sleaze, Poipet (ប៉ោយប៉ែត, pronounced ‘poi-peh’ in Khmer) has recently splurged on a facelift. Thanks mainly to the patronage of neighbouring Thais, whose own country bans gambling, its casino resorts – with names like Tropicana and Grand Diamond City – are turning the town into Cambodia's little Las Vegas. However, beyond the border zone, the Poipet of times past is still very much present. The Khmers’ gentle side is little in evidence, but don’t worry, the rest of the country does not carry on like this. Poipet extends southeast from the border for a few miles along NH5.",
+            "google_map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d124067.9494487249!2d102.58289358351472!3d13.650255482216092!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x311b16e1dc6cec71%3A0xa28f9b4d64271478!2sKrong%20Poi%20Pet!5e0!3m2!1sen!2skh!4v1667919911247!5m2!1sen!2skh"
+        },
+        {
+            "id": 7,
+            "title": "Kep, Cambodia",
+            "sub_title": "The Province With Quiet Beaches",
+            "images": [
+                "https://res.cloudinary.com/dnnpulqtc/image/upload/v1667921035/pr/photo-1579457870306-d0a167f5c1c4_n2vr6m.jpg",
+                "https://res.cloudinary.com/dnnpulqtc/image/upload/v1667920783/pr/20160609-180854-largejpg_qkyp4j.jpg",
+                "https://res.cloudinary.com/dnnpulqtc/image/upload/v1667920823/pr/arrivee-sur-l-ile_r6eirm.jpg",
+                "https://res.cloudinary.com/dnnpulqtc/image/upload/v1667920871/pr/Kep_header_x4mzfp.jpg"
+            ],
+            "category": ["Beache", "Kep", "Sea"],
+            "description": "Founded as a seaside retreat by French colonizers in 1908 and a favoured haunt of Cambodian high-rollers during the 1960s, sleepy Kep (កែប, Krong Kep, also spelled Kaeb) is drawing tourists back with seafood, sunsets and hikes in butterfly-filled Kep National Park. Its impressive range of boutique hotels squarely targets a more cultured beach crowd than the party-happy guesthouses of Sihanoukville and the islands. Some find Kep a bit soulless because it lacks a centre, not to mention a long sandy shoreline. Others revel in its torpid pace, content to relax at their resort, nibble on peppery crab at the famed crab market and poke around the mildewed shells of modernist villas, which still give the town a sort of post-apocalyptic feel.",
+            "google_map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d251104.38793745826!2d104.14784483785454!3d10.46071412239126!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3109cd16de4cbabd%3A0x39788e1a8f8fe572!2sKrong%20Kaeb!5e0!3m2!1sen!2skh!4v1667921153464!5m2!1sen!2skh"
         }
     ]
 }

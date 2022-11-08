@@ -1,5 +1,5 @@
 let typed = new Typed("#type", {
-    strings: ["Eav Outdom", "21 year old", "from Kompong Cham"],
+    strings: ["Eav Outdom", "from Kompong Cham"],
     typeSpeed: 100,
     backSpeed: 100,
     loop: true,
