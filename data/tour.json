@@ -60,7 +60,7 @@
         },
         {
             "id": 5,
-            "title": "Sihanoukville",
+            "title": "Sihanoukville, Cambodia",
             "sub_title": "The Snorkeling Spot",
             "images": [
                 "https://res.cloudinary.com/dnnpulqtc/image/upload/v1667883164/pr/69919-Sihanoukville_iq0ge9.jpg",
@@ -71,7 +71,8 @@
             "category": ["Sea"],
             "description": "Sure, Sihanoukville (ក្រុងព្រះសីហនុ) would never win first prize in a pretty-town competition, and much of it is now dominated by casinos and tacky commercial centres. But despite the rapid and mostly unwanted development, it has remained the jumping-off point for the best of Cambodia's white-sand beaches and castaway-cool southern islands. The Serendipity Beach area is a decompression chamber for backpackers, who flock here to rest up between travels and party through the night. Away from the hustle south of town is relaxed Otres Beach, where cheap bungalow joints and bohemian-flavoured guesthouses are now neighbours with rather swish boutique resorts. Although much of the beachfront will likely be cleared for large-scale development in the future, for now the mellow scene still allows for lazy days of sunbathing and whirlwind nights of bar-hopping.",
             "google_map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d250940.18552328984!2d103.2468854972809!3d10.661734361903306!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3107e1dd2f564c45%3A0x13f1f8da254362ed!2sPreah%20Sihanouk!5e0!3m2!1sen!2skh!4v1667883276462!5m2!1sen!2skh"
-        },{
+        },
+        {
             "id": 6,
             "title": "Poipet, Cambodia",
             "sub_title": "The Land Of Casinos",
@@ -98,6 +99,34 @@
             "category": ["Beache", "Kep", "Sea"],
             "description": "Founded as a seaside retreat by French colonizers in 1908 and a favoured haunt of Cambodian high-rollers during the 1960s, sleepy Kep (កែប, Krong Kep, also spelled Kaeb) is drawing tourists back with seafood, sunsets and hikes in butterfly-filled Kep National Park. Its impressive range of boutique hotels squarely targets a more cultured beach crowd than the party-happy guesthouses of Sihanoukville and the islands. Some find Kep a bit soulless because it lacks a centre, not to mention a long sandy shoreline. Others revel in its torpid pace, content to relax at their resort, nibble on peppery crab at the famed crab market and poke around the mildewed shells of modernist villas, which still give the town a sort of post-apocalyptic feel.",
             "google_map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d251104.38793745826!2d104.14784483785454!3d10.46071412239126!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3109cd16de4cbabd%3A0x39788e1a8f8fe572!2sKrong%20Kaeb!5e0!3m2!1sen!2skh!4v1667921153464!5m2!1sen!2skh"
+        },
+        {
+            "id": 8,
+            "title": "Koh Ker, Cambodia",
+            "sub_title": "The Temple With A Legend",
+            "images": [
+                "https://res.cloudinary.com/dnnpulqtc/image/upload/v1667969379/pr/koh-ker-temple_jkhjzi.jpg",
+                "https://res.cloudinary.com/dnnpulqtc/image/upload/v1667969379/pr/06de2a8cadaea76dcea800316695f20e-koh-ker_vmtd1l.jpg",
+                "https://res.cloudinary.com/dnnpulqtc/image/upload/v1667969382/pr/6225843693_2898291e50_b_kktq9b.jpg",
+                "https://res.cloudinary.com/dnnpulqtc/image/upload/v1667969517/pr/ancient-khmer-temple-koh-ker-angkor-region-near-siem-reap-cambodia_328046-25443_dcozd6.jpg"
+            ],
+            "category": ["Temple"],
+            "description": "Koh Ker or Chok Gargyar, as it is known in Old Khmer inscriptions, is a 10th-century temple complex and former capital of the Khmer Empire, situated in northern Cambodia. The name of the site, Chok Gargyar, is in itself unique, as it is the only site we know of to be named in the Old Khmer language (Khmer ancient capital are usually named in Sanskrit) and referring to a natural feature, namely the tree now known as Koki or iron wood tree (Hopea odorata) which can reach up to 45 m and is valued for its dense wood quality that is water and termite-resistant. The densely forested site containing a total of 169 archaeological remains, including 76 temples, as well as civil structures, ponds, dykes, and ancient roads, is located centrally between three other Cambodian World Heritage Sites - Preah Vihear, Angkor, and Sambor Prei Kuk. It stands at a distance of 102 km to the north-east of Angkor Wat in Siem Reap, 126 km to the south of Preah Vihear Temple Site, and north-west to Sambor Prei Kuk Site at a distance of 171 km. Situated between the slopes of the Dangrek and Kulen mountains, Koh Ker has a landscape characterized by rolling hills of variable heights ranging from 70 m to 110 m, forming a gentle slope from South to North, and coinciding with the watershed of the Steung Sen River. Koh Ker was the capital of the Khmer Empire for a brief period, between 928-941 C.E. under its founder King Jayavarman IV. As yet, the only authentic, contemporary information about the political ideology of Angkor comes from the Koh Ker inscription which establishes a clear shift of Khmer political ideology from ‘rāja’ or king, to ‘rājya’ or the kingdom and its people. In support of this new ideology, no war was waged by Jayavarman IV; his reign was the most peaceful phase of the Khmer Empire, which enabled a cultural resurgence. This time of peace allowed Jayavarman IV to carry out projects of regional, social, economic and architectural development, town planning and rural infrastructure, of which the ensemble of monuments at Koh Ker bear testimony. The art and architecture of Koh Ker was also developed to reflect and affirm the dominance and uniqueness of Jayavarman IV’s political identity, particularly with the use of a monumentality of scale in architecture, and dynamism in sculpture, both of which is unmatched in other Khmer legacies.",
+            "google_map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3874.92946063488!2d104.53502491416415!3d13.783125790327171!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3111a6ebed155785%3A0xa71c0c8f41f30b5c!2sKoh%20Ker%20Temple!5e0!3m2!1sen!2skh!4v1667969575879!5m2!1sen!2skh"
+        },
+        {
+            "id": 9,
+            "title": "Battambang, Cambodia",
+            "sub_title": "The Lush Countryside",
+            "images": [
+                "https://res.cloudinary.com/dnnpulqtc/image/upload/v1667972686/pr/a-pub-street-similar-to-the-one-in-siem-reap-town-is-being-considered-for-battambang-town.-supplied_rplnen.jpg",
+                "https://res.cloudinary.com/dnnpulqtc/image/upload/v1667972626/pr/Lok-Ta-Dombong-Kronhoung-1-1200x800_yoqa21.jpg",
+                "https://res.cloudinary.com/dnnpulqtc/image/upload/v1667972745/pr/b160729017-banner-size_jt10uq.jpg",
+                "https://res.cloudinary.com/dnnpulqtc/image/upload/v1667972770/pr/ONE-DAY-IN-BATTAMBANG_z9ig2c.png"
+            ],
+            "category": ["Countryside"],
+            "description": "There's something about Battambang (បាត់ដំបង) that visitors just love. With its riverside setting and laid-back cafes, it's the perfect blend of relatively urban modernity and small-town friendliness. Outside the city's confines, timeless hilltop temples and bucolic villages await. Not to mention the most scenic river trip in the country, which links Battambang with Siem Reap. That Cambodia's best-known circus (the magnificent Phare Ponleu Selpak) is here is no coincidence: the city has an enduring tradition of producing many of Cambodia’s best-loved singers, actors and artists.",
+            "google_map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1991097.74062798!2d100.9436404003432!3d12.916540058544653!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x310539b6f12b360d%3A0xc252532b6e35e364!2sBattambang%20Province!5e0!3m2!1sen!2skh!4v1667972895369!5m2!1sen!2skh"
         }
     ]
 }

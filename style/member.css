@@ -6,8 +6,10 @@
     --primaryFontColor: #ffffff;
     --secondaryFontColor: #ffeb3b;
     --tertiaryFontColor: #ef4992; */
-.txt_h1 {
-    margin: 20px auto;
+.label {
+    margin: 10px 0;
+    font-size: 36px;
+    text-align: center;
 }
 
 .grid_box {
